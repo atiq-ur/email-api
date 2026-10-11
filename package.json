@@ -1,0 +1,21 @@
+{
+  "name": "email-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "cf-typegen": "wrangler types",
+    "typecheck": "wrangler types && tsc",
+    "verify": "yarn typecheck && wrangler deploy --dry-run",
+    "postinstall": "wrangler types"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "wrangler": "^4.0.0"
+  },
+  "description": "Authenticated HTTP API for sending email with Cloudflare Workers and Email Service",
+  "engines": {
+    "node": ">=20"
+  }
+}

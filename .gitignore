@@ -1,0 +1,10 @@
+node_modules/
+.wrangler/
+.dev.vars
+worker-configuration.d.ts
+dist/
+package-lock.json
+yarn.lock
+*.log
+.DS_Store
+.env

@@ -8,7 +8,7 @@
   "workers_dev": true,
   "routes": [
     {
-      "pattern": "email-api.msar.me",
+      "pattern": "email-api.atiq.me",
       "custom_domain": true
     }
   ],

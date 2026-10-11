@@ -29,8 +29,8 @@
       "name": "EMAIL",
       "remote": true,
       "allowed_sender_addresses": [
-        "noreply@msar.me",
-        "hello@msar.me"
+        "noreply@atiq.me",
+        "hello@atiq.me"
       ]
     }
   ],
